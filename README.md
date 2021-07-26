@@ -5,7 +5,7 @@ Resources for controlling video acquisition.
 
 **Teensy Trigger Module**  
 Code for a Teensy-based camera trigger module.  
-	See module documentation here: https://osf.io/nvrjy/?view_only=6086cd790d8e4aeeb442e7f3d0f9bf42  
+	See module documentation [here](https://osf.io/nvrjy/?view_only=6086cd790d8e4aeeb442e7f3d0f9bf42).    
 	__  
 	Basic version:  
 		Use the code _TeensyCamTrigger_DigInLogicControl_500Hz_ .  

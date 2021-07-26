@@ -14,4 +14,4 @@ Code for a Teensy-based camera trigger module.
 
  
 ## Basler camera settings  
-(TBD)  
+Configuration files for Basler cameras.   

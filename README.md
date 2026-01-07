@@ -12,6 +12,11 @@ Code for a Teensy-based camera trigger module.
    		The Teensy waits for a logic high on `syncTrigPin`, then sends TTLs throug `syncPin` at 500Hz, until `syncTrigPin` goes low.  
    		Adjust the code (pins, frequency) to suit your needs.   
    	__   	   
+	TTL logic control with selector pins:  
+		Use the code _TeensyCamTrigger_DigInLogicControl_500_300Hz_switch.ino_.  
+		`syncTrigPin` gates output on/off. `selectorPin1` HIGH and `selectorPin2` LOW gives 500Hz; `selectorPin1` LOW and `selectorPin2` HIGH gives 300Hz.  
+		Any other selector combination disables output.   
+	__   
 	Software control:   
 		Use the code _TeensyCamTrigger_PyControl.ino_ for the Teensy, and _pyserial_ArduinoCamTrigger.py_ for the software control.   
 		Stimulation parameters and activation are control trough serial communication.

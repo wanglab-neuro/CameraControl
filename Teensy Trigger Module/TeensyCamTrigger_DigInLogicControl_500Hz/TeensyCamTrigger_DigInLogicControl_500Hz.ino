@@ -1,4 +1,5 @@
-// Trigger signal for High-speed camera
+// High-speed camera trigger generator for Teensy 3.2 at fixed 500 Hz.
+// syncTrigPin gates output on/off; when high, syncPin emits 500 Hz pulses.
 
 const int syncPin = 0;
 const int syncTrigPin = 1;
